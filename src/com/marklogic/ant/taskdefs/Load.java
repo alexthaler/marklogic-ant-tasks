@@ -29,7 +29,7 @@ public class Load extends Task {
 	private DocSet dSet = null;
 	private boolean failOnError = true;
 	private String contentType = "";
-	private boolean  bulkLoad = false;
+	private boolean  bulkLoad = true;
 	public void setFailOnError(boolean failOnError )
 	{
 		this.failOnError = failOnError;
